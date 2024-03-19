@@ -5,6 +5,12 @@ El crédito para el diseño y la lógica es para CodingTube: https://www.youtube
 
 Como agregado a su ejercicio, agregué que cada tarjeta muestre las estadísticas al reverso de cada tarjeta.
 
+Como herramientas para este proyecto se utilizó:
+• Visual Studio Code
+• JavaScript (Frameworks: React, Vite)
+• CSS (Pre-procesador: Sass)
+• HTML 
+
 El proyecto muestra tres tarjetas del primer pokémon de la API que es Bulbasaur
 ![Captura de pantalla 2024-03-18 232917](https://github.com/KaoxGH/Pokemon-API/assets/29785115/346070b3-d192-4300-a9da-9213222a2efe)
 
