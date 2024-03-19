@@ -1,8 +1,6 @@
-# React + Vite
+# Pokémon API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto que hice de práctica para aprender a usar React.
+El crédito para el diseño y la lógica es para CodingTube: https://www.youtube.com/watch?v=jg5ydNHNVJ4
+Como agregado a su ejercicio, agregué que cada tarjeta muestre las estadísticas al reverso de cada tarjeta.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
