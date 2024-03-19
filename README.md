@@ -1,5 +1,7 @@
 # Pokémon API
 
+Diseño Frontend con React y Vite para consumo de la API de Pokémon. La plantilla muestra las tarjetas de las evoluciones de cada pokémon (~1300 pokémon). Muestra de una a tres tarjetas dependiendo de la cantidad de evoluciones. Al dar click en las tarjetas, muestran sus estadísticas.
+
 Este es un proyecto de práctica para aprender a usar React.
 El crédito del diseño y la lógica es para **CodingTube**: youtube.com/@CodingTube
 
