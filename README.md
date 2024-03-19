@@ -15,4 +15,5 @@ Así hasta completar toda la lista de pokémon que nos proporciona la API. Podem
 ![image](https://github.com/KaoxGH/Pokemon-API/assets/29785115/a8d87f9d-e7de-47a2-828b-9f760e492ced)
 
 Si un pokémon no tiene evoluciones o si sólo tiene dos, la plantilla se ajustará para solo mostrar la cantidad de tarjetas específica.
+
 ![image](https://github.com/KaoxGH/Pokemon-API/assets/29785115/0ae08d2b-60e5-4d8b-892b-64db36c2f6c0)
