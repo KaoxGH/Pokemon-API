@@ -1,0 +1,99 @@
+@use "variables" as v;
+
+.card {
+  width: 200px;
+  height: 250px;
+  border-radius: 16px;
+  background-color: v.$color2;
+  box-shadow: 3px 3px 10px;
+  padding: 48px 12px 12px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  &__name {
+    background-color: v.$color1;
+    text-align: center;
+    color: white;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 6px 12px;
+  }
+
+  &__circle {
+    background-color: v.$color4;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 56px;
+    left: 24px;
+  }
+
+  &__image {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+
+  &.flipped .front {
+    transform: rotateY(180deg);
+  }
+
+  &.flipped .back {
+    transform: rotateY(0deg);
+  }
+
+  .front,
+  .back {
+    /* Common styles for front and back */
+    /* You can adjust styles as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.5s;
+  }
+
+  .back {
+    /* Styles specific to the back of the card */
+    /* You can customize as needed */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    transform: rotateY(180deg);
+
+    &__name {
+      background-color: v.$color1;
+      text-align: center;
+      color: white;
+      width: 250px;
+      position: absolute;
+      top: 0;
+      padding: 6px 12px;
+    }
+
+    .stats-container {
+      background-color: #f0f0f0;
+      flex: 1; /* Take up remaining space */
+      width: 100%; /* Ensure the container spans the entire width */
+      margin-top: 15px; /* Adjust margin as needed */
+      padding: 10px; /* Add padding for spacing */
+      border: 2px solid #ccc; /* Add a border with a suitable color */
+      border-radius: 5px; /* Apply border radius for rounded corners */
+      font-size: 16px; /* Adjust font size as needed */
+      font-weight: bold; /* Make stats text bold for emphasis */
+      color: #333; /* Choose a suitable color for the text */
+      display: flex;
+      flex-direction: column;
+      gap: 5px; /* Add gap between stats for spacing */
+    }
+  }
+}
