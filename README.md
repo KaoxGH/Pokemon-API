@@ -11,6 +11,8 @@ Como herramientas para este proyecto se utilizó:
 **• CSS (Pre-procesador: Sass)**  
 **• HTML**  
 
+Para la creación de este proyecto, se estará consumiendo la PokéAPI, que proporciona información detallada de cada pokémon: https://pokeapi.co/  
+
 El proyecto muestra tres tarjetas del primer pokémon de la API que es Bulbasaur  
 ![Captura de pantalla 2024-03-18 232917](https://github.com/KaoxGH/Pokemon-API/assets/29785115/346070b3-d192-4300-a9da-9213222a2efe)
 
