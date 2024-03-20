@@ -2,6 +2,9 @@
 
 Diseño Frontend con React y Vite para consumo de la API de Pokémon. La plantilla muestra las tarjetas de las evoluciones de cada pokémon (~1300 pokémon). Muestra de una a tres tarjetas dependiendo de la cantidad de evoluciones. Al dar click en las tarjetas, muestran sus estadísticas.
 
+https://github.com/KaoxGH/Pokemon-API/assets/29785115/a12de9b2-d3ca-4aa4-a326-97e7414968be
+
+
 Este es un proyecto de práctica para aprender a usar React.
 El crédito del diseño y la lógica es para **CodingTube**: youtube.com/@CodingTube
 
@@ -13,7 +16,7 @@ Como herramientas para este proyecto se utilizó:
 **• CSS (Pre-procesador: Sass)**  
 **• HTML**  
 
-Para la creación de este proyecto, se estará consumiendo la PokéAPI, que proporciona información detallada de cada pokémon: https://pokeapi.co/  
+Para la creación de este proyecto, estaré consumiendo la PokéAPI, que proporciona información detallada de cada pokémon: https://pokeapi.co/  
 
 El proyecto muestra tres tarjetas del primer pokémon de la API que es Bulbasaur  
 ![Captura de pantalla 2024-03-18 232917](https://github.com/KaoxGH/Pokemon-API/assets/29785115/346070b3-d192-4300-a9da-9213222a2efe)
